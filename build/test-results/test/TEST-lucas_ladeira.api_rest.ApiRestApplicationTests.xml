@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lucas_ladeira.api_rest.ApiRestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-08-16T03:21:15.101Z" hostname="LUCAS" time="0.241">
+  <properties/>
+  <testcase name="contextLoads()" classname="lucas_ladeira.api_rest.ApiRestApplicationTests" time="0.241"/>
+  <system-out><![CDATA[00:21:12.337 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [lucas_ladeira.api_rest.ApiRestApplicationTests]: ApiRestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:21:12.415 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration lucas_ladeira.api_rest.ApiRestApplication for test class lucas_ladeira.api_rest.ApiRestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.4)
+
+2025-08-16T00:21:12.690-03:00  INFO 4824 --- [    Test worker] l.api_rest.ApiRestApplicationTests       : Starting ApiRestApplicationTests using Java 17.0.15 with PID 4824 (started by lucas in C:\Users\lucas\Desktop\Desenvolvimento\java\api_rest)
+2025-08-16T00:21:12.691-03:00  INFO 4824 --- [    Test worker] l.api_rest.ApiRestApplicationTests       : No active profile set, falling back to 1 default profile: "default"
+2025-08-16T00:21:13.199-03:00  INFO 4824 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-16T00:21:13.236-03:00  INFO 4824 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2025-08-16T00:21:13.456-03:00  INFO 4824 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-16T00:21:13.570-03:00  INFO 4824 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:56768bce-1a1a-4880-9e76-33654506f292 user=SA
+2025-08-16T00:21:13.571-03:00  INFO 4824 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-16T00:21:13.608-03:00  INFO 4824 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-16T00:21:13.646-03:00  INFO 4824 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-16T00:21:13.670-03:00  INFO 4824 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-16T00:21:13.859-03:00  INFO 4824 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-16T00:21:13.904-03:00  INFO 4824 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-16T00:21:14.447-03:00  INFO 4824 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-16T00:21:14.480-03:00  INFO 4824 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-16T00:21:14.799-03:00  WARN 4824 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-16T00:21:15.093-03:00  INFO 4824 --- [    Test worker] l.api_rest.ApiRestApplicationTests       : Started ApiRestApplicationTests in 2.575 seconds (process running for 3.263)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
